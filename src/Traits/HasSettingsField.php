@@ -55,9 +55,9 @@ trait HasSettingsField
     public function getSettingsValue(): array
     {
         $settingsFieldName = $this->getSettingsFieldName();
-        if (!$this->hasSettingsField()) {
-            throw new ModelSettingsException("Unknown field ($settingsFieldName) on table {$this->getTable()}");
-        }
+        // if (!$this->hasSettingsField()) {
+        //     throw new ModelSettingsException("Unknown field ($settingsFieldName) on table {$this->getTable()}");
+        // }
 
         return json_decode($this->getAttributeValue($settingsFieldName) ?? '[]', true);
     }
