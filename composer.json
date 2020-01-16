@@ -1,8 +1,7 @@
 {
-    "name": "khaledBawz/laravel-model-settings",
+    "name": "glorand/laravel-model-settings",
     "description": "Model Settings for your Laravel app",
     "license": "MIT",
-    "homepage": "https://github.com/glorand/laravel-model-settings",
     "authors": [
         {
             "name": "Lorand Gombos",
@@ -11,7 +10,7 @@
     ],
     "type": "laravel-package",
     "keywords": [
-        "khaledBawz",
+        "glorand",
         "laravel-model-settings",
         "laravel-settings",
         "laravel",
